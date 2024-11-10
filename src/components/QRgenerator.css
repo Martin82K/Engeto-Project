@@ -1,0 +1,68 @@
+.api-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 60%;
+    background-color: #1a3a4f;
+  }
+  
+  .qr-generator-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #0e2b3d;
+    color: white;
+    border: 1px solid #00aaff;
+
+  }
+  
+  .input-section {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #00aaff;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .generate-button {
+    padding: 10px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .qr-code-section {
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    display: grid;
+    border-style: solid;
+    border: 1px solid #00aaff;
+    justify-content: center;
+ 
+  }
+  
+  .qr-code-section img {
+    flex: 2;
+    display: column;
+    width: 60%;
+    max-width: 200px;
+    border: 1px solid #00aaff;
+    padding: 10px;
+    background-color: white;
+
+  }

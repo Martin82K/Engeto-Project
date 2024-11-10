@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #e7e2a3b0;
+  margin: 2rem;
+}
+
+header {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header img {
+  width: 3rem;
+  object-fit: contain;
+}
+
+header h1 {
+  margin: 0;
+  color: #5b80b1;
+}
+
+header p {
+  margin: 0;
+  color: #d6d186f8;
+}
+
+.button-component {
+  align-content: center;
+}
+
+#tabs {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  background-color: #161818;
+}
+
+#tabs menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.25rem;
+  background-color: #161818;
+}
+
+#tabs button {
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #161818;
+  border: none;
+  border-bottom-color: #71d6e7;
+  color: #fff56ea8;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  flex: 1; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#tabs button:hover,
+#tabs button.active {
+  background-color: #3f98d3ee;
+  color: #161818;
+}
+
+#tab-content {
+  border-radius: 0 8px 8px 8px;
+  padding: 1rem;
+}
+
+#tab-content li {
+  margin: 0.75rem 0;
+}
+
+a {
+  color: #fff56ea8; 
+  text-decoration: none; 
+}
+
+a:hover {
+  background-color: #00b7ff7e; 
+  border-radius: 5%;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #00ffff; 
+}
+
+a:active {
+  color: #33ff00; 
+}

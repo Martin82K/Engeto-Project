@@ -1,0 +1,21 @@
+.static-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+
+.static-menu-item {
+    flex: 1 1 50px; 
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.static-menu img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
