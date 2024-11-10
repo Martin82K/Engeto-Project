@@ -73,6 +73,12 @@ const ButtonMenu = () => {
         >
           React Fakta 4
         </button>
+        <button
+          className={activeContentIndex === 4 ? "active" : ""}
+          onClick={() => setActiveContentIndex(4)}
+        >
+          React Fakta 5
+        </button>
       </menu>
       <div id="tab-content">
         <ul>
